@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEARCH</title>
+    <!-- lien css -->
+    <link rel="stylesheet" href="./Search.css" />
+    <!-- CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- En tête de Page! -->
+    <header class="main-head">
+      <nav>
+        <img src="./group-2.svg" width="40vh" alt="" />
+        <h1 id="logo"> <a href="./Index.html">[Events]</a></h1>
+        <ul>
+          <img src="./search_icon.svg" width="30vh" alt="" />
+          <li><a href="./Search.html">Search</a></li>
+          <img src="./about_icon.svg" width="30vh" alt="" />
+          <li><a href="./About.html">About</a></li>
+          <img src="./blog_icon.svg" width="30vh" alt="" />
+          <li><a href="#">Blog</a></li>
+          <img src="./more_icon.svg" width="30vh" alt="" />
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Corps du devoir! -->
+    <section id="filtre">
+      <div class="fil">
+        <h1>Filter by location,host, subject, date, daytime</h1>
+        <br />
+        <div class="boite">
+          <form>
+            <div #put>
+            <p>Location</p>
+            <input type="text" />
+            </div>
+            <div>
+            <p>Host</p>
+            <input type="text" />
+            </div>
+            <div>
+            <p>Subject</p>
+            <input type="text" />
+            </div>
+            <div>
+            <p>Initial date</p>
+            <input type="date" />
+            </div>
+            <div>
+            <p>Final date</p>
+            <input type="date" /><option value=""></option>
+            </div>
+            <div>
+            <p>Daytime</p>
+            <select>
+            <option>Choose...</option>
+            </select>
+            <input class="Search" type="submit" name="" value="Search" />
+            <input class="butfil" type="submit" value="Clear Filter" />
+          </form>
+        </div>
+      </div>
+      <a href="./Search.html">
+      <div class="image">
+        <p>Search Result 7 [Events] Nearby.</p>
+        <div class="goto">
+          <figure>
+            <img src="./group-2.svg" width="200px" alt="" />
+            <figcaption>go to [gathering] example</figcaption>
+          </figure>
+          <figure>
+            <img src="./group-2.svg" width="200px" alt="" />
+            <figcaption>go to [gathering] example</figcaption>
+          </figure>
+          <figure>
+            <img src="./group-2.svg" width="200px" alt="" />
+            <figcaption>go to [gathering] example</figcaption>
+          </figure>
+        </div>
+      </div>
+      </a>
+    </section>
+    <!-- Pieds de page! -->
+    <footer>
+      <section class="menu-ampoule">
+        <div class="menu-1">
+          <a href="#">HOME</a>
+          <a href="#">SEARCH</a>
+          <a href="#">ABOUTS</a>
+          <a href="#">DIVERTISE</a>
+        </div>
+        <div class="ampoule">
+          <img src="./location-dot-solid.svg" width="30px" alt="" />
+        </div>
+        <div class="menu-2">
+          <a href="#">FACEBOOK</a>
+          <a href="#">TWITTER</a>
+          <a href="#">INSTAGRAM</a>
+          <a href="#">BLOG</a>
+        </div>
+      </section>
+      <div class="contact">
+        <div class="box">
+          <h3>Subscribe</h3>
+          <br />
+          <form>
+            <input type="text" name="" placeholder="Insert your e-mail here" />
+            <input class="send" type="submit" name="" value="Send" />
+          </form>
+        </div>
+        <div class="tel">
+          <h3>Contact</h3>
+          <br />
+          <p>Have a question or Suggestion?</p>
+          <br />
+          <p id="mail">contactEvents@.com</p>
+        </div>
+        <div class="bout">
+          <h3>About</h3>
+          <br />
+          <p>
+            [Events] is an online plataform that works to improve and increase
+            <br />social life conections, when this nightmare that we are
+            curenty <br />living in is over <span>learn more.</span>
+          </p>
+        </div>
+      </div>
+      <div class="cone-foot">
+        <div class="minicone">
+          <img src="./facebook-f-brands.svg" width="10vh" alt="" />
+          <img src="./twitter-brands.svg" width="15vh" alt="" />
+          <img src="./instagram-brands.svg" width="15vh" alt="" />
+          <img src="./tumblr-brands.svg" width="10vh" alt="" />
+          <img src="./linkedin-in-brands.svg" width="15vh" alt="" />
+        </div>
+        &copy;2020 [Events], Inc.All rigths reser
+      </div>
+    </footer>
+  </body>
+</html>
